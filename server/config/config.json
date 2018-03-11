@@ -1,24 +1,18 @@
 {
-
-    "development": {
-    "username": "postgres",
-    "password": "RbCy2314",
-    "database": "todo-dev",
+  "development": {
+    "username": "gus2315",
+    "password": "gus2315",
+    "database": "login_application",
     "host": "127.0.0.1",
+    "port": 5432,
     "dialect": "postgres"
   },
   "test": {
-    "username": "postgres",
-    "password": "RbCy2314",
-    "database": "todo-dev",
+    "username": "gus2315",
+    "password": "gus2315",
+    "database": "todos-test",
     "host": "127.0.0.1",
-    "dialect": "postgres"
-  },
-  "production": {
-    "username": "postgres",
-    "password": "RbCy2314",
-    "database": "todo-dev",
-    "host": "127.0.0.1",
+    "port": 5432,
     "dialect": "postgres"
   }
 }
